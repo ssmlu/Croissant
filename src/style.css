@@ -1,0 +1,72 @@
+:root {
+  --heading-font-family: "Merriweather", serif;
+  --body-font-family: "Roboto", sans-serif;
+  --text-color: #1e2f3c;
+}
+body {
+  background-color: #eeefdf;
+}
+.container {
+  max-width: 80%;
+  margin: 60px auto;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 54px;
+  margin-bottom: 24px;
+  font-family: var(--heading-font-family);
+  color: var(--text-color);
+}
+h5 {
+  font-size: 20px;
+  line-height: 32px;
+  margin-top: 12px;
+  font-family: var(--body-font-family);
+  font-style: italic;
+  opacity: 0.8;
+  color: var(--text-color);
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: var(--body-font-family);
+  color: var(--text-color);
+}
+
+.links {
+  margin-top: 32px;
+}
+
+.home-link,
+.contact-link,
+.photo-link {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: var(--body-font-family);
+  color: #4d835a;
+  padding-right: 24px;
+}
+
+.home-link:hover,
+.contact-link:hover,
+.photo-link:hover {
+  text-decoration: none;
+}
+
+.home-link:visited,
+.contact-link:visited,
+.photo-link:visited {
+  color: #172a97;
+}
+
+img {
+  max-width: 100%;
+}
+
+.email-link {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: var(--body-font-family);
+}
